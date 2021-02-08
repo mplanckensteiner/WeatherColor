@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+extension Double {
+    func toString() -> String {
+        return String(format: "%.0f", self)
+    }
+    
+    func toInt() -> Int {
+        return Int(self)
+    }
+    
+}
